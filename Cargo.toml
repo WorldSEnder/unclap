@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "unclap",
+    "unclap-core",
+    "unclap-derive",
+    "unclap-support",
+]

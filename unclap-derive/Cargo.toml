@@ -1,0 +1,18 @@
+[package]
+name = "unclap-derive"
+version = "0.1.0"
+authors = ["Martin Molzer <ga65guy@mytum.de>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+convert_case = "0.4.0"
+darling = "0.13.0"
+proc-macro-error = { version = "1" }
+proc-macro2 = { version = "1.0.27" }
+quote = "1.0.9"
+syn = { version = "1.0.72" }
+unclap-core = { path = "../unclap-core" }
+unclap-support = { path = "../unclap-support" }

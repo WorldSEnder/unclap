@@ -1,0 +1,7 @@
+[package]
+name = "unclap-core"
+version = "0.1.0"
+authors = ["Martin Molzer <ga65guy@mytum.de>"]
+edition = "2018"
+
+[dependencies]

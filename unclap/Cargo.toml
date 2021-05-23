@@ -1,0 +1,10 @@
+[package]
+name = "unclap"
+version = "0.1.0"
+authors = ["Martin Molzer <ga65guy@mytum.de>"]
+edition = "2018"
+
+[dependencies]
+unclap-core = { path = "../unclap-core" }
+unclap-derive = { path = "../unclap-derive" }
+unclap-support = { path = "../unclap-support" }
